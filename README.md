@@ -1,28 +1,28 @@
-project/
+airport-congestion-prediction-ml-dl/
 │
 ├── data/
-│   ├── raw/          # données brutes
-│   ├── processed/    # données nettoyées + features
+│   ├── raw/              # raw dataset (Kaggle source data)
+│   ├── processed/        # cleaned dataset + engineered features
 │
 ├── notebooks/
-│   ├── EDA.ipynb     # analyse exploratoire
-│   ├── ML.ipynb      # modèles ML
-│   ├── DL.ipynb      # modèles Deep Learning
+│   ├── EDA.ipynb         # exploratory data analysis
+│   ├── ML.ipynb          # machine learning models
+│   ├── DL.ipynb          # deep learning models
 │
 ├── src/
-│   ├── preprocessing.py   # nettoyage données
-│   ├── features.py        # feature engineering
-│   ├── train_ml.py        # entraînement ML
-│   ├── train_dl.py        # entraînement DL
-│   ├── evaluate.py        # MAE, RMSE, analyses
+│   ├── preprocessing.py  # data cleaning and preprocessing
+│   ├── features.py       # feature engineering
+│   ├── train_ml.py       # ML model training
+│   ├── train_dl.py       # DL model training
+│   ├── evaluate.py       # evaluation metrics (MAE, RMSE)
 │
 ├── outputs/
-│   ├── models/       # modèles sauvegardés
-│   ├── figures/      # graphiques
-│   ├── metrics/      # résultats
+│   ├── models/           # saved trained models
+│   ├── figures/          # graphs and visualizations
+│   ├── metrics/          # evaluation results
 │
-├── pipeline.py       # exécution complète du projet
-├── requirements.txt  # librairies
-├── README.md         # explication du projet
-├── report.pdf        # rapport final
-├── presentation.pptx # slides 
+├── pipeline.py           # end-to-end automated pipeline
+├── requirements.txt      # project dependencies
+├── README.md             # project documentation
+├── report.pdf            # technical report (15–20 pages)
+├── presentation.pptx     # final presentation slides

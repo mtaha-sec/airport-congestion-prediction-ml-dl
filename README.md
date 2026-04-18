@@ -1,3 +1,6 @@
+##  Project Structure
+
+```text
 airport-congestion-prediction-ml-dl/
 │
 ├── data/
@@ -23,6 +26,5 @@ airport-congestion-prediction-ml-dl/
 │
 ├── pipeline.py           # end-to-end automated pipeline
 ├── requirements.txt      # project dependencies
-├── README.md             # project documentation
 ├── report.pdf            # technical report (15–20 pages)
 ├── presentation.pptx     # final presentation slides
